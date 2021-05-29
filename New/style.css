@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  color: #444;
+}
+
+#ro {
+  max-width: 650px;
+  height: 520px;
+  margin: 2rem auto;
+  padding: 0 .5rem;
+  background: #eee709;
+  border-radius: 10%;
+}
+
+form {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+[type="text"],
+button {
+  display: inline-block;
+  -webkit-appearance: none;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  background: purple;
+  color: white;
+  margin: 0 .5rem;
+}
+
+[type="text"] {
+  width: 100%;
+}
+
+[type="text"]:active,
+[type="text"]:focus {
+  outline: 0;
+}
+
+[type="checkbox"] {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+h1 {
+  color: #222;
+  text-align: center;
+  padding-right: 80px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+  background: #91e27d;
+  border-radius: 4px;
+}
+
+li span {
+  display: inline-block;
+  padding: .5rem;
+  width: 420px;
+}
+
+
+#filterButtons{
+  cursor: pointer;
+  padding: 0.5rem;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+.fa-trash,
+.fa-check{
+pointer-events: none;
+}
+
+
+.buttons{
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+}
+.all{
+float: left;
+width: 7rem;
+padding: 0.7rem;
+border-radius: 20px;
+cursor: pointer;
+background: rgb(176, 71, 237);
+color: white;
+}
+.active{
+  float: left;
+  width: 7rem;
+  padding: 0.7rem;
+border-radius: 20px;
+cursor: pointer;
+background: rgb(176, 71, 237);
+color: white;
+}
+.complete{
+  float: left;
+  width: 7rem;
+  padding: 0.7rem;
+  border-radius: 20px;
+  cursor: pointer;
+  background: rgb(176, 71, 237);
+  color: white;
+}
+
+.Upload{
+  float: left;
+  width: 7rem;
+  padding: 0.7rem;
+  border-radius: 20px;
+  cursor: pointer;
+  background: rgb(176, 71, 237);
+  color: white;
+  }
+  .Download{
+    float: left;
+    width: 7.2rem;
+    padding: 0.7rem;
+  border-radius: 20px;
+  cursor: pointer;
+  background: rgb(176, 71, 237);
+  color: white;
+  }
